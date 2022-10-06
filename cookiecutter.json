@@ -1,0 +1,10 @@
+{
+  "base_name": "Hello World",
+  "project_name": "{{ cookiecutter.base_name }} MFE",
+  "base_app_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}_mfe",
+  "repo_name": "{{ cookiecutter.base_app_name|replace('_', '-') }}-mfe",
+  "project_description": "add a short project description here",
+  "channel": "channel",
+  "timezone": "UTC",
+  "version": "0.1.0"
+}
