@@ -4,6 +4,6 @@ Version: {{ cookiecutter.version }}
 
 {{ cookiecutter.project_description }}
 
-{% if cookiecutter.includeDsDeps %}
+{% if cookiecutter.includeDsDeps == 'True' %}
     included
 {% endif %}
