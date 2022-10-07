@@ -1,11 +1,9 @@
 {
-  "base_name": "Hello World",
-  "project_name": "{{ cookiecutter.base_name }} MFE",
-  "base_app_name": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_') }}",
-  "repo_name": "{{ cookiecutter.base_app_name|replace('_', '-') }}",
+  "project_name": "Project Name",
+  "include_ag_grid": "Y",
+  "include_ds_dependencies": "Y",
+  "local_port": "3100",
   "project_description": "add a short project description here",
-  "includeDsDeps": true,
-  "channel": "channel",
-  "timezone": "UTC",
-  "version": "0.1.0"
+  "slack_channel": "channel",
+  "_extensions": [".extensions"]
 }
