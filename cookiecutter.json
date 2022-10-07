@@ -5,5 +5,5 @@
   "local_port": "3100",
   "project_description": "add a short project description here",
   "slack_channel": "channel",
-  "_extensions": ["."]
+  "_extensions": ["exts"]
 }
